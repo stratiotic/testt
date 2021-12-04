@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 792px;
+    background-image: url(../imeg/Layer\ 10.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+li{
+    margin: 10px;
+    list-style-type: none;
+    margin: 0 15px;
+    
+}
+.header_ul{
+    display: flex;
+    margin: 10px;
+    list-style: none;
+}
+.Menu {
+    color: black;
+    font-family: 'Montserrat', serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.Fir {
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+    font-weight: 700;
+}
+
+.join {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.join > p {
+    font-size: 20px;
+    color: black;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    width: 180px;
+    text-align: center;
+    padding: 15px 0;
+    margin: 20px 0;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 2px;
+    background: transparent;
+}
+.Block{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+display: flex;
+    align-items: center;
+}
+.ul{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+} 
